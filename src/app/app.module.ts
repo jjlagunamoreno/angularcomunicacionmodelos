@@ -9,6 +9,8 @@ import { ListaproductosComponent } from './components/listaproductos/listaproduc
 import { MenuComponent } from './components/menu/menu.component';
 import { HomeComponent } from './components/home/home.component';
 import { HijoCocheComponent } from './components/hijo-coche/hijo-coche.component';
+import { PadreCochesComponent } from './components/padre-coches/padre-coches.component';
+import { PadreDeportesComponent } from './components/padre-deportes/padre-deportes.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { HijoCocheComponent } from './components/hijo-coche/hijo-coche.component
     ListaproductosComponent,
     MenuComponent,
     HomeComponent,
-    HijoCocheComponent
+    HijoCocheComponent,
+    PadreCochesComponent,
+    PadreDeportesComponent
   ],
   imports: [
     BrowserModule, routing, //importar para que aparezcan las rutas correctamente
