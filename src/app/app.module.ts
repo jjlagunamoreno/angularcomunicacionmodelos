@@ -11,6 +11,7 @@ import { HomeComponent } from './components/home/home.component';
 import { HijoCocheComponent } from './components/hijo-coche/hijo-coche.component';
 import { PadreCochesComponent } from './components/padre-coches/padre-coches.component';
 import { PadreDeportesComponent } from './components/padre-deportes/padre-deportes.component';
+import { HijoDeporteComponent } from './components/hijo-deporte/hijo-deporte.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PadreDeportesComponent } from './components/padre-deportes/padre-deport
     HomeComponent,
     HijoCocheComponent,
     PadreCochesComponent,
-    PadreDeportesComponent
+    PadreDeportesComponent,
+    HijoDeporteComponent
   ],
   imports: [
     BrowserModule, routing, //importar para que aparezcan las rutas correctamente
