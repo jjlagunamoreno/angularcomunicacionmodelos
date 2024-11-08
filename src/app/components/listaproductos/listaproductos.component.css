@@ -1,0 +1,41 @@
+/* ESTILO GENERAL DEL CONTENEDOR */
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* CENTRA LOS ELEMENTOS HORIZONTALMENTE */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px; /* LIMITA EL ANCHO DEL CONTENEDOR */
+    border: 2px solid #ddd; /* BORDE SUAVE */
+    border-radius: 10px; /* ESQUINAS REDONDEADAS */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* SOMBRA ELEVADA */
+    background-color: #f9f9f9; /* FONDO CLARO */
+  }
+  
+  /* ESTILO DEL TÍTULO */
+  h1 {
+    color: #007bff; /* AZUL PARA EL TÍTULO */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* ESTILO DE LA IMAGEN */
+  img {
+    width: 80%; /* AJUSTA EL TAMAÑO RELATIVO AL CONTENEDOR */
+    max-width: 200px; /* LIMITE MÁXIMO DEL ANCHO */
+    margin: 10px 0; /* ESPACIADO SUPERIOR E INFERIOR */
+    border-radius: 8px; /* BORDES REDONDEADOS */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* SOMBRA SUAVE */
+  }
+  
+  /* ESTILO DEL PRECIO */
+  h2 {
+    color: #ff5733; /* COLOR NARANJA-ROJO */
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
+  

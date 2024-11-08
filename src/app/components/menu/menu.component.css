@@ -1,0 +1,34 @@
+/* ESTILOS GENERALES DEL MENÚ */
+#menu {
+    list-style-type: none; /* ELIMINA LOS PUNTOS DE LA LISTA */
+    padding: 10px; /* ESPACIADO INTERIOR */
+    margin: 0 auto; /* CENTRA EL MENÚ */
+    display: flex; /* MENÚ HORIZONTAL */
+    justify-content: center; /* CENTRA LOS ELEMENTOS HORIZONTALMENTE */
+    background-color: #f4f4f4; /* FONDO GRIS CLARO */
+    border: 1px solid #ccc; /* BORDE SUAVE */
+    border-radius: 5px; /* ESQUINAS REDONDEADAS */
+  }
+  
+  /* ESTILOS DE LOS ELEMENTOS DEL MENÚ */
+  #menu li {
+    margin: 0 10px; /* ESPACIADO ENTRE LOS ELEMENTOS */
+  }
+  
+  /* ESTILOS DE LOS ENLACES */
+  #menu li a {
+    text-decoration: none; /* SIN SUBRAYADO */
+    font-size: 16px; /* TAMAÑO DE FUENTE */
+    color: #333; /* COLOR DEL TEXTO */
+    font-weight: bold;
+    padding: 5px 10px; /* ESPACIADO INTERIOR DEL ENLACE */
+    border-radius: 3px; /* BORDES SUAVES EN EL HOVER */
+    transition: background-color 0.3s ease; /* TRANSICIÓN SUAVE */
+  }
+  
+  /* EFECTOS AL PASAR EL RATÓN */
+  #menu li a:hover {
+    background-color: #007bff; /* FONDO AZUL */
+    color: white; /* TEXTO BLANCO */
+  }
+  
